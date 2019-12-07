@@ -29,7 +29,6 @@ function createReverseOrbitGraph(input) {
 
 function countOrbits(input) {
     const orbitGraph = createOrbitGraph(input)
-    console.log(orbitGraph)
     // perform a dfs of orbit graph 
     // for each orbitee in the graph, num added orbits is equal to orbit depth in graph  
     const visited = new Set(); 
